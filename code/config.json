@@ -1,0 +1,14 @@
+{
+  "input_file": "raw_input.txt",
+  "cleaned_file": "cleaned_output.txt",
+  "chunks_dir": "chunks",
+  "json_chunks_dir": "json_chunks",
+  "output_dir": "output",
+  "max_chars": 20000,
+  "chunking_strategy": "size",
+  "script_paths": {
+    "clean": "cleanText.py",
+    "chunk": "chunk_legislation.py",
+    "extract": "extract_legislative_facts.py"
+  }
+}
